@@ -12,7 +12,7 @@ namespace SelectionStatements_SwitchandCase
             switch (favSchoolSub.ToLower())
             {
                 case "history":
-                    Console.WriteLine("History is a great subject!");
+                    Console.WriteLine("History is a great subject!!");
                     break;
                 case "science":
                     Console.WriteLine("Science is a fun thing to learn!");
