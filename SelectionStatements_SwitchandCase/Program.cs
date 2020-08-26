@@ -6,20 +6,21 @@ namespace SelectionStatements_SwitchandCase
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hey! What is your favorite subject in school?");
-            var favSchoolSub = Console.ReadLine();
+            Console.WriteLine($"What is your name?");
+            var userName = Console.ReadLine();
 
-            switch (favSchoolSub.ToLower())
+            Console.WriteLine($"Hi {userName}! I have a favorite animal.");
+            Console.WriteLine($"Is it a pig, a tiger, or Dolly?");
+
+            var userInput = Console.ReadLine();
+
+            switch (userInput.ToLower())
             {
-                case "history":
-                    Console.WriteLine("History is a great subject!!");
+                case "pig":
+                    Console.WriteLine("No, it's not a pig.");
                     break;
-                case "science":
-                    Console.WriteLine("Science is a fun thing to learn!");
-                    break;
-                default:
-                    Console.WriteLine("I don't know of that subject... I just like history and science!");
-                    break;
+                    
+
             }
         }
     }
